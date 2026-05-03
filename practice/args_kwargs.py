@@ -8,3 +8,7 @@ def super_func (*args, **kwargs):
     total+=value
   return sum(args) +total
 print(super_func(1,2,3,4,5,6, arg1=55, arg2=55))
+
+
+
+#rules for params : *args , default parameters , **kwargs
